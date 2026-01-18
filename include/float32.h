@@ -24,6 +24,12 @@ public:
     // Destructor
     ~float32_t() = default;
 
+    // Unary Operators
+    float32_t operator+=(const float32_t& other);
+    float32_t operator-=(const float32_t& other);
+    float32_t operator*=(const float32_t& other);
+    float32_t operator/=(const float32_t& other);
+
     // Operators
     float32_t operator+(const float32_t& other);
     float32_t operator-(const float32_t& other);
