@@ -39,12 +39,3 @@
 
 # debug information files
 *.dwo
-
-# Build
-build/
-cmake-build-*/
-out/
-
-# IDE
-.vscode/
-.editorconfig
