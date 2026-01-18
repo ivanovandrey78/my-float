@@ -47,3 +47,4 @@ out/
 
 # IDE
 .vscode/
+.editorconfig
